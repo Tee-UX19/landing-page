@@ -1,6 +1,8 @@
 * {
   /* border: solid red; */
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -88,17 +90,17 @@ body {
   gap: 50px;
   padding-bottom: 10%;
 }
-.contain {
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: flex-start;
+.contain{
+  text-align: center;
+  width: 175px;
 }
 
 .blue-border {
-  border: 3px solid #3882f6;
-  border-radius: 15%;
+  border: 4px solid #3882f6;
+  border-radius: 8%;
   height: 175px;
   width: 175px;
+  margin-bottom: 10px;
 }
 .text {
   
@@ -106,8 +108,8 @@ body {
   text-align: justify;
   text-align-last: center;
   /* word-spacing: 0.01em; */
-  hyphens: auto;
-  max-width: 175px;
+  /* hyphens: auto; */
+  /* max-width: 100%; */
   color: #666;
   
 }
@@ -125,7 +127,7 @@ body {
     padding: 0;
     align-self: flex-end;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .last{display: flex;
